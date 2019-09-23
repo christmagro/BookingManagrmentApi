@@ -1,3 +1,6 @@
+spring:
+    application:
+        name: Booking Management Api
 server:
     port: 8098
 management:
