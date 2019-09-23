@@ -1,0 +1,12 @@
+server:
+    port: 8098
+management:
+    endpoints:
+        web:
+            base-path: /management
+            exposure:
+                include: "*"
+logging:
+    level:
+        com.chris.booking: DEBUG
+        ROOT: INFO
